@@ -15,9 +15,11 @@
  
  1. Fontawesome.min.css
  2. Bootstrap.min.css
- 3. jQuery.min.js
- 4. Popper.min.js
- 5. Bootstrap.min.js
+ 3. Bootstrap.min.css.map
+ 4. jQuery.min.js
+ 5. Popper.min.js
+ 6. Bootstrap.min.js
+ 7. Bootstrap.min.js.map
  
  * following Links are CDN links of all the supported bootstrap files
  
@@ -29,17 +31,28 @@
  
  https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
  
-  3. jQuery.min.js :
+  3. Bootstrap.min.css.map :
+ Downloaded from Official bootstrap files.
+ 
+ It is required by the google chrome browser otherwise it shows or display warning messages on the console. 
+ 
+  4. jQuery.min.js :
   
  https://code.jquery.com/jquery-3.5.1.min.js
   
-  4. Popper.min.js
+  5. Popper.min.js
   
  https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js
  
- 5. Bootstrap.min.js
+  6. Bootstrap.min.js
  
  https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
+ 
+  7. Bootstrap.min.js.map
+  
+ Downloaded from Official bootstrap files.
+ 
+ It is required by the google chrome browser otherwise it shows or display warning messages on the console.
  
  
   
