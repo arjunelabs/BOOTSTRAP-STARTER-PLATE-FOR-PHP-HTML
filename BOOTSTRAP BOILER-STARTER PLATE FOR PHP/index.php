@@ -14,8 +14,8 @@ include "main.php";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- FONT AWESOME ICONS LINK -->
-  <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/font-awesome.min.css">
+  <!-- FONT AWESOME ICONS JS -->
+  <script src="/bootstrap_4_5_2_min_files/font_awesome_arjun_kit.js"></script>
   <!-- BOOTSTRAP CSS -->
   <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/bootstrap.min.css">
   <!-- ADD CUSTOM CSS FILES HERE -->
