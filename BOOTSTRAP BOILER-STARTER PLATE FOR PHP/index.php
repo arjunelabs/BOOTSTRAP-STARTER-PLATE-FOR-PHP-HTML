@@ -20,6 +20,8 @@ include "main.php";
   <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/bootstrap.min.css">
   <!-- ADD CUSTOM CSS FILES HERE -->
   <link rel="stylesheet" href="/style.css">
+  <!-- LIGHTBOX IMAGE GALLERY VIEW LIBRARY CSS -->
+  <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/ekko-lightbox.css">
   <!-- ADD THE TITLE OF YOUR PROJECT HERE -->
   <title>PROJECT TITLE</title>
 </head>
@@ -43,6 +45,8 @@ include "main.php";
   <script src="/bootstrap_4_5_2_min_files/popper.min.js"></script>
   <!-- BOOTSTRAP JS -->
   <script src="/bootstrap_4_5_2_min_files/bootstrap.min.js"></script>
+  <!-- LIGHTBOX IMAGE GALLERY VIEW LIBRARY JS -->
+  <script src="/bootstrap_4_5_2_min_files/ekko-lightbox.min.js"></script>
 
   <!-- ******************************************* -->
   <!-- END OF BOOTSTRAP FILES -->
