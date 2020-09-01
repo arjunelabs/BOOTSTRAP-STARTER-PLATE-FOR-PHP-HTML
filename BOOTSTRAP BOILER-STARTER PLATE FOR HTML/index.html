@@ -37,6 +37,14 @@
   <script src="/bootstrap_4_5_2_min_files/bootstrap.min.js"></script>
   <!-- LIGHTBOX IMAGE GALLERY VIEW LIBRARY JS -->
   <script src="/bootstrap_4_5_2_min_files/ekko-lightbox.min.js"></script>
+  <script>
+    // LIGHTBOX IMAGE GALLERY VIEW INIT
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
 
   <!-- ******************************************* -->
   <!-- END OF BOOTSTRAP FILES -->
