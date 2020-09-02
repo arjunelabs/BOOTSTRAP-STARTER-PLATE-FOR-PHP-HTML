@@ -15,13 +15,15 @@ include "main.php";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- FONT AWESOME ICONS JS -->
-  <script src="/bootstrap_4_5_2_min_files/font_awesome_arjun_kit.js"></script>
+  <script src="/vendor_libraries/font_awesome_icons/font_awesome_arjun_kit.js"></script>
   <!-- BOOTSTRAP CSS -->
-  <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/bootstrap.min.css">
-  <!-- ADD CUSTOM CSS FILES HERE -->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/vendor_libraries/bootstrap_4_5_2_min_files/css/bootstrap.min.css">
   <!-- LIGHTBOX IMAGE GALLERY VIEW LIBRARY CSS -->
-  <link rel="stylesheet" href="/bootstrap_4_5_2_min_files/ekko-lightbox.css">
+  <link rel="stylesheet" href="/vendor_libraries/lightbox/css/ekko-lightbox.css">
+  <!-- SLICK CAROUSEL LIBRARY CSS  -->
+  <link rel="stylesheet" href="/vendor_libraries/slick/css/slick.css">
+  <!-- SLICK CAROUSEL LIBRARY CSS 2  -->
+  <link rel="stylesheet" href="/vendor_libraries/slick/css/slick-theme.css">
   <!-- ADD THE TITLE OF YOUR PROJECT HERE -->
   <title>PROJECT TITLE</title>
 </head>
@@ -40,19 +42,30 @@ include "main.php";
   <!-- ******************************************* -->
 
   <!-- BOOTSTRAP jQUERY JS -->
-  <script src="/bootstrap_4_5_2_min_files/jquery-3.5.1.min.js"></script>
+  <script src="/vendor_libraries/jquery/jquery-3.5.1.min.js"></script>
   <!-- BOOTSTRAP POPPER JS -->
-  <script src="/bootstrap_4_5_2_min_files/popper.min.js"></script>
+  <script src="/vendor_libraries/bootstrap_4_5_2_min_files/js/popper.min.js"></script>
   <!-- BOOTSTRAP JS -->
-  <script src="/bootstrap_4_5_2_min_files/bootstrap.min.js"></script>
+  <script src="/vendor_libraries/bootstrap_4_5_2_min_files/js/bootstrap.min.js"></script>
   <!-- LIGHTBOX IMAGE GALLERY VIEW LIBRARY JS -->
-  <script src="/bootstrap_4_5_2_min_files/ekko-lightbox.min.js"></script>
+  <script src="/vendor_libraries/lightbox/js/ekko-lightbox.min.js"></script>
   <script>
     // LIGHTBOX IMAGE GALLERY VIEW INIT
     // Lightbox Init
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
       event.preventDefault();
       $(this).ekkoLightbox();
+    });
+  </script>
+  <!-- SLICK CAROUSEL LIBRARY JS  -->
+  <script src="/vendor_libraries/slick/js/slick.min.js"></script>
+  <script>
+    // SLICK TEXT CAROUSEL LIBRARY INIT
+    // Slick Init
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1,
     });
   </script>
 
