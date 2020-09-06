@@ -66,6 +66,28 @@ include "main.php";
       infinite: true,
       slideToShow: 1,
       slideToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  </script>
+  <!-- CKEDITOR WYSIWYG TEXT EDITOR LIBRARY JS -->
+  <script src="/vendor_libraries/ckeditor/ckeditor.js"></script>
+  <script>
+    let editor;
+    ClassicEditor
+      .create(document.querySelector('#editor'))
+      .then(newEditor => {
+        editor = newEditor;
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    // Assuming there is a <button id="save-changes">Save Changes</button> in your application.
+    document.querySelector('#save-changes').addEventListener('click', () => {
+      // Save all the written text data in editorData variable using editor.getData() method
+      const editorData = editor.getData();
+      // print/display the data in console.log
+      console.log(editorData);
     });
   </script>
 
